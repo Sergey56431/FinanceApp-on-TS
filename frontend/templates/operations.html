@@ -1,0 +1,70 @@
+<div class="content">
+    <section class="main">
+        <div class="container">
+            <h1 class="title">Доходы и расходы</h1>
+            <div class="buttons-to-change">
+                <a href="#/create" class="btn me-2 btn-success" id="createIncome">Создать доход</a>
+                <a href="#/create" class="btn btn-danger" id="createExpense">Создать расход</a>
+            </div>
+            <div class="filter mb-5">
+                <div class="date-filter-btn">
+                    <input type="radio" class="btn-check" name="options-outlined" id="btn-check-2-outlined-1" checked autocomplete="off">
+                    <label class="btn btn-outline-secondary me-2" for="btn-check-2-outlined-1">Сегодня</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined" id="btn-check-2-outlined-2" autocomplete="off">
+                    <label class="btn btn-outline-secondary me-2" for="btn-check-2-outlined-2">Неделя</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined" id="btn-check-2-outlined-3" autocomplete="off">
+                    <label class="btn btn-outline-secondary me-2" for="btn-check-2-outlined-3">Месяц</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined" id="btn-check-2-outlined-4" autocomplete="off">
+                    <label class="btn btn-outline-secondary me-2" for="btn-check-2-outlined-4">Год</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined" id="btn-check-2-outlined-5" autocomplete="off">
+                    <label class="btn btn-outline-secondary me-2" for="btn-check-2-outlined-5">Всё</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined" id="btn-check-2-outlined-6" autocomplete="off">
+                    <label class="btn btn-outline-secondary me-2" for="btn-check-2-outlined-6">Интервал</label>
+                </div>
+                <div class="choice-date">
+                    <label for="date-begin">С</label>
+                    <input placeholder="Дата" class="date" id="date-begin" type="date">
+                    <label for="date-begin">До</label>
+                    <input placeholder="Дата" class="date" id="date-over" type="date">
+                </div>
+            </div>
+
+            <div class="my-table">
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th scope="col">№ Оперции</th>
+                        <th scope="col">Тип операции</th>
+                        <th scope="col">Категория</th>
+                        <th scope="col">Сумма</th>
+                        <th scope="col">Дата</th>
+                        <th scope="col">Комментарий</th>
+                        <th scope="col"></th>
+                    </tr>
+                    </thead>
+                    <tbody id="tableBody">
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+</div>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body mb-3">
+                Вы действительно хотите удалить операцию?
+            </div>
+            <div class="modal-footer mb-5">
+                <button id="delete-operation" type="button" class="btn btn-success me-2" data-bs-dismiss="modal">Да, удалить</button>
+                <button id="not-delete" type="button" class="btn btn-danger btn-del" data-bs-dismiss="modal">Не удалять</button>
+            </div>
+        </div>
+    </div>
+</div>

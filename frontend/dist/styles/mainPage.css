@@ -1,0 +1,30 @@
+.finance {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 140px;
+}
+
+.divide-line {
+    margin-inline: 84px;
+    width: 1px;
+    height: 450px;
+    background: #D9D9D9;
+}
+
+.income-title, .consumption-title {
+    color: #290661;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Roboto Medium", sans-serif;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.income, .consumption {
+    text-align: center;
+    width: 467px;
+}
+
+.choice-date {
+    margin-top: 10px;
+}

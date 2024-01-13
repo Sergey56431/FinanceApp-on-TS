@@ -1,0 +1,46 @@
+<div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0"></div>
+<section class="main">
+    <div class="container">
+        <h1 class="title">Главная</h1>
+        <div class="filter">
+            <div class="date-filter-btn">
+                <input type="radio" class="btn-check" name="options-outlined" id="btn-check-2-outlined-1" checked autocomplete="off">
+                <label class="btn btn-outline-secondary me-4" for="btn-check-2-outlined-1">Сегодня</label>
+
+                <input type="radio" class="btn-check" name="options-outlined" id="btn-check-2-outlined-2" autocomplete="off">
+                <label class="btn btn-outline-secondary me-4" for="btn-check-2-outlined-2">Неделя</label>
+
+                <input type="radio" class="btn-check" name="options-outlined" id="btn-check-2-outlined-3" autocomplete="off">
+                <label class="btn btn-outline-secondary me-4" for="btn-check-2-outlined-3">Месяц</label>
+
+                <input type="radio" class="btn-check" name="options-outlined" id="btn-check-2-outlined-4" autocomplete="off">
+                <label class="btn btn-outline-secondary me-4" for="btn-check-2-outlined-4">Год</label>
+
+                <input type="radio" class="btn-check" name="options-outlined" id="btn-check-2-outlined-5" autocomplete="off">
+                <label class="btn btn-outline-secondary me-4" for="btn-check-2-outlined-5">Всё</label>
+
+                <input type="radio" class="btn-check" name="options-outlined" id="btn-check-2-outlined-6" autocomplete="off">
+                <label class="btn btn-outline-secondary me-4" for="btn-check-2-outlined-6">Интервал</label>
+            </div>
+            <div class="choice-date">
+                <label for="date-begin">С</label>
+                <input placeholder="Дата" class="date" id="date-begin" type="date">
+                <label for="date-begin">До</label>
+                <input placeholder="Дата" class="date" id="date-over" type="date">
+            </div>
+        </div>
+        <div class="finance">
+            <div class="income">
+                <h2 class="income-title">Доходы</h2>
+                <canvas id="pieChart1"></canvas>
+            </div>
+            <div class="divide-line"></div>
+            <div class="consumption">
+                <h2 class="consumption-title">Расходы</h2>
+                <canvas id="pieChart2"></canvas>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+

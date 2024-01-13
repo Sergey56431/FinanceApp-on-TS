@@ -1,0 +1,19 @@
+.title {
+    margin-bottom: 40px;
+}
+
+.form-control {
+    max-width: 397px;
+    margin-bottom: 20px;
+}
+
+.btn:not(.btn-danger, .btn-primary) {
+    padding: 11px 16px;
+    margin: 0;
+    max-width: 105px;
+}
+
+.btn-danger {
+    margin: 0;
+    max-width: 83px;
+}

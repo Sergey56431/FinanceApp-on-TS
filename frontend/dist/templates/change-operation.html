@@ -1,0 +1,22 @@
+<section class="main">
+    <div class="container">
+        <h1 class="title">Создание дохода/расхода</h1>
+        <div class="created">
+            <select id="typeField" class="form-select form-control mb-2" aria-label="Default select example">
+                <option selected>Выберете тип операции</option>
+                <option id="one" value="income">Доход</option>
+                <option id="two" value="expense">Расход</option>
+            </select>
+            <select id="categoryField" class="form-select form-control mb-2" aria-label="Default select example">
+
+            </select>
+            <input id="sumField" type="text" class="form-control mb-2" placeholder="Сумма">
+            <input id="dateField" type="date" class="form-control mb-2" placeholder="Дата">
+            <input id="commentField" type="text" class="form-control" placeholder="Комментарий...">
+            <div class="create-btn">
+                <a id="createBtn" href="#/operations" class="btn btn-success">Создать</a>
+                <a id="backBtn" href="#/operations" class="btn btn-danger">Отмена</a>
+            </div>
+        </div>
+    </div>
+</section>

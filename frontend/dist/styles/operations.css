@@ -1,0 +1,63 @@
+.btn-danger {
+    margin: 0;
+    max-width: 140px;
+}
+
+.btn-success {
+    margin: 0;
+    max-width: 135px;
+}
+
+.buttons-to-change {
+    margin-bottom: 40px;
+}
+
+.title {
+    margin-bottom: 40px;
+}
+
+.choice-date {
+    margin-top: 10px;
+}
+
+.btn {
+    margin: 0;
+}
+
+.table {
+    text-align: center;
+}
+
+.table thead {
+    color: #052C65;
+}
+
+.ref-icon{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.date-filter-btn {
+    display: flex;
+    align-items: center;
+}
+
+.modal-body {
+    text-align: center;
+    font-family: "Roboto Medium", sans-serif;
+    font-size: 20px;
+    color: #290661;border-bottom: none;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    border-top: none;
+}
+
+.delete-btn {
+    border: none;
+    background: none;
+}

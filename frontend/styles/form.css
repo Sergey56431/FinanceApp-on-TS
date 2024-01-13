@@ -1,0 +1,160 @@
+.form{
+    padding-top: 140px;
+    padding-bottom: 123px;
+}
+
+.form .container{
+    margin: 0 auto;
+    max-width: 397px;
+}
+
+.sidebar {
+    display: none;
+}
+
+.layout {
+    align-items:center;
+    justify-content:center;
+}
+
+.logo{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.form-title {
+    font-family: 'Roboto Medium', sans-serif;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #052C65;
+    margin-bottom: 20px;
+}
+
+.form-check{
+    margin-bottom: 26px;
+}
+
+.form-check-input {
+    background: #FFFFFF;
+    border: 1px solid #DEE2E6;
+    border-radius: 2px;
+
+}
+
+.form-check-label{
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 12px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.registration-link{
+    margin-top: 10px;
+}
+
+.registration-link span{
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    margin-right: 10px;
+}
+
+.registration-link a{
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration-line: underline;
+    color: #0D6EFD;
+}
+/*.form-content{*/
+/*    max-width: 504px;*/
+/*}*/
+
+
+/*.form-details{*/
+/*    margin-top: 60px;*/
+/*    max-width: 485px;*/
+/*}*/
+
+/*.form-agree{*/
+/*    margin-top: 15px;*/
+/*    font-size: 12px;*/
+/*    line-height: 14px;*/
+/*    color: #333333;*/
+/*}*/
+
+/*.form-agree input {*/
+/*    top: 2px;*/
+/*    position: relative;*/
+/*}*/
+
+/*.form-agree input,*/
+/*.form-agree label*/
+/*{*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.form-button{*/
+/*    margin-top: 30px;*/
+/*}*/
+
+/*.form-button .button{*/
+/*    width: 267px;*/
+/*}*/
+
+/*.form-group{*/
+/*    background: #FFF;*/
+/*    border: 1px solid #C1BBBB;*/
+/*    padding: 12px 23px 13px 23px;*/
+/*    width: 485px;*/
+/*    height: 74px;*/
+/*    box-sizing: border-box;*/
+/*    position: relative;*/
+/*    transition: .2s ease all;*/
+/*}*/
+
+/*.form-input{*/
+/*    border: 0;*/
+/*    outline: 0;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    padding: 0;*/
+/*    font-size: 18px;*/
+/*    line-height: 22px;*/
+/*    color: #6933DC;*/
+/*    font-family: "Museo Sans Cyrl Bold", sans-serif;*/
+/*}*/
+
+/*.form-label {*/
+/*    font-size: 18px;*/
+/*    line-height: 22px;*/
+/*    color: #333333;*/
+/*    position: absolute;*/
+/*    left: 23px;*/
+/*    top: 26px;*/
+/*    transition: 0.2s ease all;*/
+/*}*/
+
+/*.form-input:focus ~ .form-label,*/
+/*.form-input:not(:focus):valid ~ .form-label*/
+/*{*/
+/*    top: 12px;*/
+/*}*/
+
+/*.form-input:valid,*/
+/*.form-input:focus {*/
+/*    margin-top: 27px;*/
+/*    height: auto;*/
+/*}*/
+
+/*.form-group:focus-within {*/
+/*    border-left: 5px solid #6933DC;*/
+/*}*/
+
+/*.form-link{*/
+/*    margin-top: 15px;*/
+/*    font-size: 12px;*/
+/*    line-height: 14px;*/
+/*}*/
